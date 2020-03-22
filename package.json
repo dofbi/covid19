@@ -1,0 +1,31 @@
+{
+  "name": "covid19-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard monitoring evolution covid 19",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red",
+    "debug": "node-red --inspector --settings ./.node-red/settings.js --userDir ./.node-red",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genova/covid19.git"
+  },
+  "keywords": [
+    "nodered",
+    "covid19"
+  ],
+  "author": "Mamadou Diagne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genova/covid19/issues"
+  },
+  "homepage": "https://github.com/genova/covid19#readme",
+  "dependencies": {
+    "node-red": "^1.0.4",
+    "node-red-contrib-web-worldmap": "^2.3.1",
+    "node-red-dashboard": "^2.19.4",
+    "node-red-node-ui-table": "^0.3.1"
+  }
+}
