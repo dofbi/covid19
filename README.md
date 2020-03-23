@@ -17,7 +17,7 @@ Tableau de bord pour suivre l'évolution du covid19
 
   ```
   git clone https://github.com/genova/covid19.git
-  nmp npm install
+  npm install
   ```
 
 ## Démarrer
