@@ -17,6 +17,7 @@ Tableau de bord pour suivre l'évolution du covid19
 
   ```
   git clone https://github.com/genova/covid19.git
+  cd covid19
   npm install
   ```
 
@@ -25,7 +26,6 @@ Tableau de bord pour suivre l'évolution du covid19
 Lancer le serveur
 
 ```
-cd covid19
 npm start
 ```
 
