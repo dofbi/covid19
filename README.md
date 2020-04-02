@@ -49,6 +49,56 @@ covid
         covid19Geo.csv
 ```
 
+### Fichier CSV
+
+**covid19.csv** Nombre de cas coronavirus au Sénégal.
+,e,communautaire,total,gueri,mort,evacue
+
+| date | tests | cas | contact | importe | communautaire | contacts | total | gueri | mort | evacue
+| --------- |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|   xxxxx   | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx | xxxxx |
+
+### Métadonnée
+```
+* date
+* tests
+* nouveaux cas
+* nombre de cas contact
+* nombres de importé
+* nombre de ca communautaire
+* Total cas
+* Totals guérs
+* Total mortd
+* Total malades évacués
+```
+**covid19Geo.csv** Nombres de cas par géolocalisation
+
+| district | cas | lat | lon |
+| --------- |:-----:|:-----:|:-----:|
+
+### Métadonnée
+
+* district sanitaire ou lieu
+* nombre de cas
+* coordonnées GPS, latitude
+* coordonnées GPS, longitude
+
+## Déployer votre application en production
+
+Vous avez besoin d'un serveur qui peut faire tourner dû [nodejs](https://nodejs.org/en/download/)
+Voici quelques recommandation
+
+* [IBM Cloud](https://nodered.org/docs/getting-started/ibmcloud)
+* [Amazon Web Services](https://nodered.org/docs/getting-started/aws)
+* [Microsoft Azure](https://nodered.org/docs/getting-started/azure)
+* [Heroku](https://heroku.com/)
+* [Jelastic](https://jelastic.cloud/)
+
+Mais aussi
+
+* [Raspberry Pi](https://nodered.org/docs/getting-started/raspberrypi)
+* [Android](https://nodered.org/docs/getting-started/android)
+
 ## Télécharger
 
 Cliquez [**ici**](https://github.com/genova/covid19/archive/master.zip) pour télécharger ou sur **clone or download**
