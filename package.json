@@ -25,7 +25,7 @@
   "dependencies": {
     "node-red": "^1.0.4",
     "node-red-contrib-web-worldmap": "^2.3.1",
-    "node-red-dashboard": "^2.19.4",
+    "node-red-dashboard": "^2.26.2",
     "node-red-node-ui-table": "^0.3.1"
   }
 }
