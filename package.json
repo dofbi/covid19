@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/genova/covid19#readme",
   "dependencies": {
-    "node-red": "^3.1.9",
+    "node-red": "^3.1.13",
     "node-red-contrib-web-worldmap": "^2.3.1",
-    "node-red-dashboard": "^2.26.2",
+    "node-red-dashboard": "^3.6.5",
     "node-red-node-ui-table": "^0.3.1"
   }
 }
